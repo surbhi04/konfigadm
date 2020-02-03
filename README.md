@@ -46,8 +46,10 @@ Flags:
 ### Ubuntu / Debian
 
 ```bash
-wget https://github.com/moshloop/konfigadm/releases/download/v0.4.2/konfigadm.deb
-dpkg -i konfigadm.deb
+sudo apt install alien
+wget https://github.com/flanksource/konfigadm/archive/v0.5.3.tar.gz`
+sudo alien -d konfigadm-0.5.3.tar.gz
+sudo dpkg -i konfigadm_0.5.3-2_all.deb
 ```
 
 ### Centos / Fedora / Redhat
